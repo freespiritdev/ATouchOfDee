@@ -12,10 +12,12 @@ body {
 
 a {
 	color: #fff;
+	text-decoration: none;
 }
 
 a:hover {
 	color: #000;
+	text-decoration: none;
 }
 
 .jumbotron {
@@ -23,7 +25,78 @@ a:hover {
 	background-color: transparent;
 }
 
+.jumbotron{
+  background-color: transparent;
+  margin-bottom: 0px;
+  background-position: 0% 35%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 520px;
+  width: 80%;
+  margin-left: 4%
+}
+
 img {
 	max-width: 100%;
 	height: auto;
 }
+
+
+/* Large desktop */
+@media (min-width: 1200px) {  
+  #footer {
+  }
+
+  img {
+   
+  }
+
+
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { 
+  #footer {
+  }
+
+ 
+  div{
+  }
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  #footer {
+  }
+
+
+  div{
+   
+  }
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) { 
+  #footer {
+  }
+
+  div{
+    
+  }
+}
+
+@media all and (max-width: 600px) {
+  img {
+    display:none;
+  }
+}
+
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+
+    #footer {
+    }
+  }
