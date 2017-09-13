@@ -1,0 +1,29 @@
+html, body{
+  height: 100%;
+  color: #ff0000;
+  padding-top: 40px;
+  font-family: "luminance", Arial;
+}
+
+body {
+	background: #507daa;
+	color: #fff;
+}
+
+a {
+	color: #fff;
+}
+
+a:hover {
+	color: #000;
+}
+
+.jumbotron {
+	height: 600px;
+	background-color: transparent;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
